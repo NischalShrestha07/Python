@@ -32,13 +32,13 @@ quiz={
 
 score =0
 for key,values in quiz.items():
-    print(value('question'))
-    answer=inout("Answer?")
+    print(values('question'))
+    answer=input("Answer?")
 
-    if answer.lower()==value['answer'].lower():
+    if answer.lower()==values['answer'].lower():
         print("Correct")
         score=score+1
         print("Your score sis: "+str(score))
     else:
         print("Wrong")    
-        print("The answer is: " + value['answer'])
+        print("The answer is: " + values['answer'])
