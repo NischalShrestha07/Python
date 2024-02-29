@@ -1,6 +1,6 @@
 
 applePrice=210
-buget=200
+budget=200
 if(applePrice<=budget):
     print("Alexa, add 1 kg Apples to The Cart")
 else:
