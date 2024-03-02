@@ -7,4 +7,10 @@ for i in name:
 
 colors=['red','blue','green','black']   
 for color in colors:
-    print(color)
+    print("")
+    
+    print("=>",color)
+    # print("")
+
+    for i in color:
+        print(i)    
