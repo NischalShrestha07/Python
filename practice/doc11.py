@@ -20,3 +20,5 @@ while(count>=0):
     print(count)
     # count=count-1
     count=count-2
+else:    
+    print("We are outside the while loop")
