@@ -13,7 +13,7 @@ while True:
     print("Invalid choice. Please enter a number between 1 and 7.")
 
 
-if(num==1):
+if(num==1):  
     print("Today is Sunday.")    
 
 elif(num==2):
