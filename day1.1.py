@@ -6,5 +6,6 @@ name.insert(0,"Hikmat")
 # name.pop("rohan")
 
 del name[0]
+
 print(name)
 
