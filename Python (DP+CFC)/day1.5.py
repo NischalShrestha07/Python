@@ -19,6 +19,5 @@
 address="from Biratnagar"
 checkAddress=address.startswith("F")
 print(checkAddress)
-
 more=address.capitalize()
 print(more)
