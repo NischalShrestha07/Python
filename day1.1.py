@@ -6,6 +6,9 @@ name.insert(0,"Hikmat")
 # name.pop("rohan")
 
 del name[0]
-
-print(name)
+name.reverse()
+subName=name.copy()
+print(f"These are datas of name: {name}")
+print()
+print(F"These are the datas of subNames:{subName}")
 
