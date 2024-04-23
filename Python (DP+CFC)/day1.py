@@ -11,3 +11,4 @@ print("My name is: {}".format(name))
 # Different way of adding multiple cursor or Changing the same data at one shot
 # 1.using alt + cursor
 # 2. using replace(Ctrl+H) and replace all data
+# 3. using (Ctrl+D) clicking again again which add the cursor in all the same letters
