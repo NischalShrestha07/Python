@@ -1,29 +1,29 @@
-# print("Weather Formats:")
-# print("1. Sunny")
-# print("2. Rainy")
-# print("3. Snowy")
+print("Weather Formats:")
+print("1. Sunny")
+print("2. Rainy")
+print("3. Snowy")
 
-# weatherCondition = int(input("Choose the current weather conditions (1-3): "))
-# if weatherCondition == 1:
-#         temp = int(input("Enter the current temperature: "))
-#         if 34 <= temp <= 50:
-#             print("Wear Shorts and a T-shirt! It's too Hot Outside.")
-#         else:
-#             print("Invalid temperature for sunny weather.")
-# elif weatherCondition == 2:
-#         temp = int(input("Enter the current temperature: "))
-#         if 10 <= temp <= 20:
-#             print("Wear a Raincoat! It's raining heavily Outside.")
-#         else:
-#             print("Invalid temperature for rainy weather.")
-# elif weatherCondition == 3:
-#         temp = int(input("Enter the current temperature: "))
-#         if 0 <= temp <= 10:
-#             print("Wear Jacket and Gloves! Snowfall is happening.")
-#         else:
-#             print("Invalid temperature for snowy weather.")
-# else:
-#         print("Invalid Choice!.")
+weatherCondition = int(input("Choose the current weather conditions (1-3): "))
+if weatherCondition == 1:
+        temp = int(input("Enter the current temperature: "))
+        if 34 <= temp <= 50:
+            print("Wear Shorts and a T-shirt! It's too Hot Outside.")
+        else:
+            print("Invalid temperature for sunny weather.")
+elif weatherCondition == 2:
+        temp = int(input("Enter the current temperature: "))
+        if 10 <= temp <= 20:
+            print("Wear a Raincoat! It's raining heavily Outside.")
+        else:
+            print("Invalid temperature for rainy weather.")
+elif weatherCondition == 3:
+        temp = int(input("Enter the current temperature: "))
+        if 0 <= temp <= 10:
+            print("Wear Jacket and Gloves! Snowfall is happening.")
+        else:
+            print("Invalid temperature for snowy weather.")
+else:
+        print("Invalid Choice!.")
 
 
 
@@ -73,5 +73,12 @@
 # #     print("Sorry, I don't have a recommendation for that weather condition.")
 # # 
 
-name="Nischal Shrestha"
-print(name[0:7])
+# name="Nischal Shrestha"
+# print(name[0:7])
+
+num=int(input("enter the number"))
+
+for i in range(1,11):
+    print(f"{num} X {i} = {num*i}")
+    # num=num+1
+    
