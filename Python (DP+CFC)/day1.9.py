@@ -4,6 +4,17 @@ friend={
     'name':'Nischal',
     'age':21
 }
+
+
+# when we have to check the key exist in the set or not do this
+if 'hello' in friend:
+    print("It exist!!")
+else:
+    print("It doesnt exist!!")
+        
+        
+        
+        
 friend["isNepali"]=True
 
 print(f"Your name is: {friend['name']}")
