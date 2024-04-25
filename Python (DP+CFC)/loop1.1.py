@@ -14,11 +14,12 @@ grades={
     'Nischal':5,
     'Naruto':65,
     'Boruto':95,
+    'Karsa':56,
     'Krishna':45
 }
 # print(f"{grades[0]} has scored ")
 for name in grades:
-    print(f"{name} has got {grades.items}")
+    print(f"{name} scored {grades[name]}")
 
 # print()
 
