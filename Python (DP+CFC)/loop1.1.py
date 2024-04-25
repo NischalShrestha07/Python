@@ -21,6 +21,5 @@ grades={
 for name in grades:
     print(f"{name} scored {grades[name]}")
 
-# print()
 
-        
+print(grades.values)        
