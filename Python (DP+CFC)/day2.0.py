@@ -17,3 +17,5 @@ if x>0 and y>0:
 if x>0 or y>0:
     print("\nBoth are positive\n")     
 
+
+
