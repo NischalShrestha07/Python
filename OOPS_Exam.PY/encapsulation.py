@@ -13,6 +13,9 @@ class Car:
             return self.brand+" !"
     def fullName(self):
         return f"FullName:{self.brand} {self.model}"
+    
+    def genDescription():
+        return "Cars are means of transpotation"
 
 # Inheritance  Syntax
 class ElectricCar(Car):
@@ -28,7 +31,7 @@ print(f"Getter Brand: {myTesla.getBrand()}")
 myCar=Car("Bullero","Scorpio")
 safari=Car("Tata","Safari")
 safari2=Car("Toata","SafariMan")
-
+ 
 # print(safari.totalCar)
 print(Car.totalCar)
 
