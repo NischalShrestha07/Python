@@ -14,8 +14,8 @@ class Car:
     def fullName(self):
         return f"FullName:{self.brand} {self.model}"
     
-    def genDescription():
-        return "Cars are means of transpotation"
+    # def genDescription():
+    #     return "Cars are means of transpotation"
 
 # Inheritance  Syntax
 class ElectricCar(Car):
