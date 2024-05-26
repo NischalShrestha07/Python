@@ -11,12 +11,11 @@
 # hel="HAHAHA"*5
 # print(hel)
 
-from math import floor
 
 # getting to least integer
-x=4.5
-print(floor(x))
+# x=4.5
+# print(floor(x))
 
 
-name,age,address="Nischal",21,"Biratnagar"
-print(name,age,address)
+# name,age,address="Nischal",21,"Biratnagar"
+# print(name,age,address)
