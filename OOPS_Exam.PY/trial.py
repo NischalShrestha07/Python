@@ -7,15 +7,18 @@
 # """
 # print(lang)
 
-# # Repetations of Strings
-# hel="HAHAHA"*5
-# print(hel)
+# Repetations of Strings
+from math import floor
+
+
+hel="HAHAHA"*5
+print(hel)
 
 
 # getting to least integer
-# x=4.5
-# print(floor(x))
+x=4.5
+print(floor(x))
 
 
-# name,age,address="Nischal",21,"Biratnagar"
-# print(name,age,address)
+name,age,address="Nischal",21,"Biratnagar"
+print(name,age,address)
