@@ -1,4 +1,3 @@
-from turtle import st
 
 
 student={
@@ -14,10 +13,15 @@ extraDict={
 }
 student.update(extraDict)
 print(student)
+print("\n")
+for data,value in student.items():
+    data=data.capitalize()
+    print(data,value)
 
-for key,value in student.items():
-    key=key.capitalize()
-    print(f"{key}:{value}")
+
+# for key,value in student.items():
+#     key=key.capitalize()
+#     print(f"{key}:{value}")
     
     
 

@@ -1,3 +1,1 @@
-p1.happy_birthday()
-# p1.happy_birthday()
-# p1.happy_birthday()
+from turtle import st
